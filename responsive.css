@@ -1,15 +1,18 @@
-.navbar-main{
-    flex-direction: column;
-}
-
-.nav-right{
-   flex-direction: column;
-}
-
-.nav-container{
+@media screen and (max-width:576px) {
+    .navbar-main{
+        flex-direction: column;
+    }
     
-    box-shadow:none;
-}
-.nav-right p, button{
-   margin: 10px 0;
+    .nav-right{
+       flex-direction: column;
+    }
+    
+    .nav-container{
+        
+        box-shadow:none;
+    }
+    .nav-right p, button{
+       margin: 10px 0;
+    }
+    
 }
