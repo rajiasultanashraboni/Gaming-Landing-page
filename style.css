@@ -203,8 +203,9 @@ span{
         gap: 10px;
     }
 
-    .funny-video img{
+    .funny img{
         width: 100%;
+        transition: filter 0.3s ease-in-out;
     }
     .funny{
         position: relative;
@@ -221,13 +222,15 @@ span{
         left: 35%;
         text-align: center;
         display: none;
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0;
     }
     .funny:hover img {
         filter: brightness(30%);
     }
-    .funny-video img:hover+.watch-now{
+    .funny:hover .watch-now {
         display: block;
-        
+        opacity: 1;
     }
 
     .watch-now:hover {
