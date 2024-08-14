@@ -38,5 +38,25 @@
     .goat-right{
         width: 100%; 
     }
+
+    .gamer-container{
+       flex-direction: column;
+    }
+    .gamer-left{
+        width: 100%;
+    }
+
+    .gamer-right{
+        width: 100%;
+        text-align: center;
+        
+    
+    }
+
+    .gamer-right button{
+
+        margin-left: 120px;
+        width: 40%;
+    }
     
 }
