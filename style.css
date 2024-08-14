@@ -60,9 +60,10 @@ span{
 }
 
     .goat-main{
+        
         background-image: url(./images/Group\ 14.png);
         background-repeat: no-repeat;
-        background-position: left;
+       
     }
 
     .goat-container{
@@ -71,6 +72,7 @@ span{
         width: 80%;
         margin: 0 auto;
         align-items: center;
+        padding: 30px 0;
         
     }
 
@@ -100,4 +102,22 @@ span{
     }
     .goat-right img{
         width: 100%;
+    }
+
+    .goat-button1{
+        background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+        border-radius: 48px;
+        border: none;
+        padding: 10px 15px;
+        color: white;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .goat-button2{
+        border-radius: 48px;
+        background: rgb(78, 197, 247);
+        border: none;
+        padding: 10px 15px;
+        color: white;
     }

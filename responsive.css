@@ -14,5 +14,29 @@
     .nav-right p, button{
        margin: 10px 0;
     }
+
+    .goat-container{
+        flex-direction: column-reverse;
+        
+    }
+
+    .goat-main{
+        
+        background-image: none;
+       
+    }
+
+    .goat-left{
+        width: 100%;
+        margin-top: 50px;
+        padding: 50px 60px;
+        background-image: url(./images/Group\ 14.png);
+        background-repeat: no-repeat;
+        
+       
+    }
+    .goat-right{
+        width: 100%; 
+    }
     
 }
