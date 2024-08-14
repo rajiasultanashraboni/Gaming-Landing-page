@@ -86,4 +86,19 @@
         margin-top: 50px;
     }
 
+    .career-container{
+        flex-direction: column;
+    }
+
+    .career-content{
+        width: 100%;
+        padding: 50px 0;
+        
+    }
+
+    .career-image{
+        width: 100%;
+        
+    }
+
 }

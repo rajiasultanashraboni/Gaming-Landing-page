@@ -285,3 +285,99 @@ span{
         height: 200px;
         width: 200px;
     }
+
+    .online-container{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 100px auto;
+        gap: 100px;
+    }
+
+    .online-image{
+        width: 50%;
+        position: relative;
+    }
+    .online-image img{
+        width: 100%;
+    }
+    .online-content{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .online-content h1{
+        font-family: Work Sans;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .online-content p{
+        color: rgb(83, 76, 100);
+        font-family: Work Sans;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .beral{
+        position: absolute;
+        top: 70%;
+        left: 75%;
+    }
+
+    .beral img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .career-main{
+        background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+        color: white;
+    }
+    .career-container{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .career-content{
+        width: 50%;
+        padding: 50px;
+    }
+
+    .career-image{
+        width: 50%;
+        
+    }
+
+    .career-image img{
+        width: 100%;
+        
+    }
+
+    .career-display{
+        display: flex;
+        gap: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .career-content h1{
+        color: rgb(255, 255, 255);
+        font-family: Work Sans;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .career-content button{
+        padding: 15px 20px;
+        border-radius: 30px;
+        border: none;
+        color: rgb(255, 66, 165);
+        margin-left: 0px;
+    }
