@@ -69,4 +69,21 @@
         left: 40%;
         
     }
+
+    .play-container{
+        flex-direction: column;
+        
+    }
+
+    .play-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-image{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
 }

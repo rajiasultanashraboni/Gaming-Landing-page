@@ -236,3 +236,52 @@ span{
     .watch-now:hover {
         display: block;
     }
+
+    .play-container{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .play-content{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: right;
+    }
+
+    .play-content h1{
+        font-family: Work Sans;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .play-content p{
+        color: rgb(83, 76, 100);
+        font-family: Work Sans;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .play-image{
+        width: 50%;
+        position: relative;
+    }
+    .play-image img{
+        width: 100%;
+    }
+
+    .biral{
+        position: absolute;
+        bottom: -40px;
+        left: -50px;
+       
+    }
+
+    .biral img{
+        height: 200px;
+        width: 200px;
+    }
