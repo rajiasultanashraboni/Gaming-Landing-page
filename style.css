@@ -6,7 +6,7 @@
 
 .navbar-main{
     display: flex;
-    align-items: center;
+    align-items: center !important;
     justify-content: space-between;
     padding: 30px;
     width: 80%;
@@ -15,10 +15,12 @@
 .nav-left{
     display: flex;
     align-items: center;
+   
 }
 .nav-right{
     display: flex;
     align-items: center;
+   
 }
 
 .nav-left p{
@@ -54,4 +56,48 @@ span{
 .nav-container{
     
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    background: rgb(255, 255, 255);}
+    background: rgb(255, 255, 255);
+}
+
+    .goat-main{
+        background-image: url(./images/Group\ 14.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    .goat-container{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        
+    }
+
+    .goat-left{
+        width: 50%;
+        
+       
+    }
+    .goat-left h2,
+    .goat-left h1,
+    .goat-left p{
+        margin-bottom: 15px;  
+       
+    }
+    .goat-left h1{
+        background-image: linear-gradient(#F948B2,#8758F1); 
+        background-clip: text;
+        color: transparent;
+    }
+    .goat-left p i{
+        margin-right: 10px; 
+        color: red; 
+       
+    }
+    .goat-right{
+        width: 50%;
+    }
+    .goat-right img{
+        width: 100%;
+    }
