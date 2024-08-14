@@ -58,5 +58,15 @@
         margin-left: 120px;
         width: 40%;
     }
-    
+    .funny-video{
+        
+        grid-template-columns: 1fr;
+       
+    }
+
+    .watch-now{
+      
+        left: 40%;
+        
+    }
 }
