@@ -86,6 +86,42 @@
         margin-top: 50px;
     }
 
+    .online-container{
+        flex-direction: column;
+    }
+    .online-image{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
+    .beral{
+        
+        top: 60%;
+        left: 70%;
+    }
+
+    .beral img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .online-content{
+        width: 100%;
+        text-align: center;
+        
+        
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .online-content h1{
+        font-size: 2rem;
+        
+    }
+
     .career-container{
         flex-direction: column;
     }
