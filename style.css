@@ -407,3 +407,59 @@ span{
         width: 50px;
         
     }
+
+    .footer-container{
+        background: rgb(11, 2, 35);
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-content{
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    .footer-content p{
+        font-family: Work Sans;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-left: 10px;
+    }
+
+    .footer-para{
+        color: white;
+        margin-top: 15px;
+        display: flex;
+        gap: 20px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+    .footer-para2{
+        color: rgba(255, 255, 255, 0.6);
+        margin-top: 15px;
+        display: flex;
+        gap: 20px;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+
+    .footer-icon{
+        display: flex;
+        gap: 20px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    .footer-ending{
+        color: rgba(255, 255, 255, 0.6);
+        font-family: Work Sans;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }

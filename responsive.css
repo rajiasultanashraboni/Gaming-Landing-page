@@ -137,4 +137,19 @@
         
     }
 
+    .footer-container{
+        padding: 50px;
+    }
+
+    .footer-para{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .footer-para2{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
 }
